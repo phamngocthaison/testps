@@ -11,7 +11,7 @@ Welcome  👋
 
 </p>
 
-### ✨ [Demo](https://github.com/pedroermarinho/markdown-readme-generator#readme)
+### ✨ [Demo](https://github.com/phamngocthaison/testps/tree/master/school#readme)
 ![Alt text](../blob/school.png?raw=true "Title")
 ## Install
 ```sh
