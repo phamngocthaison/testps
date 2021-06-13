@@ -1,0 +1,11 @@
+**/*.pyc
+**/__pycache__
+**/.DS_Store
+**/.idea/
+**/*~
+**/*.pyo
+/tiki_sale_order/static/src/template/*.csv
+/tiki_e_invoice/static/src/invoice/*.html
+media/
+.nosync
+.vscode
