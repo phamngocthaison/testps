@@ -3,8 +3,8 @@ import sys
 import uuid
 import pandas as pd
 from tabulate import tabulate
-from functools import cmp_to_key
-import operator
+
+MAX_COURSE = 100
 
 
 class School:
@@ -64,7 +64,7 @@ def read_scores(f="scores.txt"):
     courses = []
     students = []
     school = School(courses=courses, students=students, scores=scores)
-    df = pd.read_csv(f, header=0, converters={i: str.strip for i in range(10)})
+    df = pd.read_csv(f, header=0, converters={i: str.strip for i in range(MAX_COURSE)})
     for course in df.columns[1:]:
         courses.append(Course(course.strip()))
     for index, row in df.iterrows():
